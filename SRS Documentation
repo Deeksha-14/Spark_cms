@@ -1,0 +1,140 @@
+Document : System Requirement Specification
+
+Title : System Requirement Specification for Online College Management
+System
+
+Team : Students, Staff, Management, Security, Business Analyst,
+Quality Assurance Team, System Analyst
+
+Objective : The online College management system for college is
+intended to provide easy access for students & management through a
+single Web Portal using Internet.
+It will provide ease of access for all users as well as members of
+administration. It will enable Students to set up online profiles over
+the internet and faculty members to keep track of all necessary
+activities.
+
+Scope : This system allows students to register themselves, Student
+search, pay college fess online, get update of college events, faculty
+details, exam schedules, weekly schedule.
+Students can feel exam forms, submit feedback, can update profile
+information using this system.
+Faculty can keep track of performance of all students through portal,
+attendance, exam records department wise etc.
+Administrator can ask for all the necessary information from student
+through portal, can arrange weekly schedules etc.
+
+Definitions :
+OCMS: Online College Management System
+QA: Quality Assurance
+Portal: Online Web Application
+MIS: Management Information System
+BI: Business Intelligence
+Dashboard: Personalized information presented using BI techniques
+such grid, score card, graph.
+Requirement :
+Functional Requirements : Students can register on the portal and
+create new profile, will get id and password for future log in.
+Student will have its own dashboard.
+Student profile have personal details, academic details which contains
+student id, roll number, course, mentor details
+
+Student can pay fess online, fill exam form, get teacher information,
+Daily schedule, weekly schedule.
+Student can see sports department
+Student can have access for online campus placement provided by
+college.
+Student can request for any document from administrator through
+portal.
+Student able to update all profile details except student id.
+Student dashboard will have score card, areas of improvement, weekly
+task
+Faculty will be registered and have dashboard.
+Faculty can maintain all students records department wise such as
+attendance, exam marks, assignments, projects etc.
+Faculty can check daily classes schedule on portal
+Administrator will be able to manage give all access to student and
+faculty
+Administrator will be able to arrange daily and weekly schedule for
+students and faculty department wise.
+Administrator can request for any document from student through portal
+Faculty will submit daily report to administrator.
+
+Administrator will be able to arrange college events
+Administrator will be the main authority over the system
+
+Non Functional Requirements :
+Security: Registered users will be allowed to make changes according
+to need. Each student will be able to access system via authentication
+and administrator will be able to authorize it.
+The proposed System will provide access to specific data, operations
+using role based security.
+The Permissions will be based on specific roles, using SSL in all
+transactions.
+System will block operations for inactive users and would redirect for
+authentication. And it will log off all users after sometime due to
+inactivity.
+Data will be in encrypted form. System uses firewall to protect from
+outside attacks.
+
+Reliability: The system will back up all data on regular basis and
+recover in short time duration to keep system operational. Continuous
+updates are maintained. During peak hours system will maintain same
+user experience by managing load balancing.
+
+Availability
+uptime: 24* 7 available
+
+99.99%
+
+Maintainability : A Commercial database software will be used to
+maintain System data Persistence.
+A readymade Web Server will be installed to host online college
+management portal i.e. Web Site to manage server capabilities.
+An operations team for IT and support will easily monitor and
+configure System using Administrative tools provided by Servers.
+Separate environment will be maintained for system for isolation
+in production, testing, and development.
+
+Portability:
+PDA: Portable Device Application
+System will provide portable User Interface (HTML, CSS, and JS)
+through users will be able to access online college management portal.
+System can be deployed to single server to any OS or Cloud.
+
+Accessibility:
+Only registered customer will be able to access the system after
+authentication.
+Administrative team can add and remove new and old students based on
+the continue session.
+
+Durability :
+System will retain user dashboard for 15 minutes even though customer
+lose internet connection and join again.
+System will implement backup and recovery for retaining student’s
+data, teacher’s data and also passed out students data over time.
+
+Efficiency :
+In exam time, maximum number of users will login to portal and view
+marks with same response time.
+System will be able to manage all transactions with isolation.
+
+Modularity :
+System will designed and developed using reusable, independent or
+dependent business scenarios in the form of modules.
+These modules will be loosely coupled and highly cohesive.
+
+Scalability :
+System will be able to provide consistent user experience to
+students as well as teachers irrespective of load.
+
+Safety :
+Online college management portal will be secure from malicious attack,
+fishing as well as it is protected from outside attacks with proper
+firewall.
+Online shopping portal will be always kept updated with latest
+antivirus software.
+Business data will be backed up periodically to ensure safety of data
+using incremental back up strategy.
+Role based security will be applied for Application data and
+operations accessibility.
