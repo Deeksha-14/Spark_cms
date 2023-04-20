@@ -1,2 +1,3 @@
 # Spark_cms
-System.out.println
+'SPARK_CMS' = "GroupName_ProjectName" 
+
